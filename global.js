@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
   }
 
-  function updateDropdownValue(location) {
+function updateDropdownValue(location) {
     if (location) {
         let formattedLocation = capitalizeFirstLetter(location);
 
